@@ -29,3 +29,5 @@ https://github.com/AUTOMATIC1111/stable-diffusion-webui/blob/master/LICENSE.txt
 https://github.com/invoke-ai/InvokeAI/blob/main/LICENSE
 And licenses of all UIs, third party libraries, and extensions.
 EOF
+
+while true; do sleep 1000; done
