@@ -64,6 +64,6 @@ RUN \
 WORKDIR ${ROOT}
 ENV NVIDIA_VISIBLE_DEVICES=all
 ENV CLI_ARGS=""
-EXPOSE 7860
+EXPOSE 7890
 ENTRYPOINT ["/docker/entrypoint.sh"]
-CMD python -u webui.py --listen --port 7860 ${CLI_ARGS}
+CMD python -u webui.py --listen --port 7890 ${CLI_ARGS}
